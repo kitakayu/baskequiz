@@ -1,0 +1,15 @@
+ドキュメント
+
+31行目の
+function redirect() {
+	header('Location: http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+	exit;
+}
+
+のやっていることがあまり分からない。
+
+//CSRF対策
+　ちゃんと正しいところからフォームが送られているかセキュリティを高めるためのもの
+
+初期化処理でtokenという推測されにくい文字列を
+　$_SESSION['token'] = sha1(uniqid(mt_rand(), true));
