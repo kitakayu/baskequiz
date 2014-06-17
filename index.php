@@ -17,8 +17,24 @@ $quizList = array(
 		'a' => array('マイアミ', 'ロス', 'ニューヨーク')
 	),
 	array(
+		'q' => 'NBAはなんの略？',
+		'a' => array('National Basketball Association', 'National Baseball Association', 'National Basketball America',)
+	),
+	array(
 		'q' => 'バスケの神様と言えば？',
 		'a' => array('ジョーダン', 'レイ・アレン', 'アレンアイバーソン', 'となりのおっちゃん')
+	),
+	array(
+		'q' => '君が好きだと？',
+		'a' => array('叫びたい', 'え？なんて？', '静かにして',)
+	),
+	array(
+		'q' => 'スラムダンクの主人公の名前は？',
+		'a' => array('桜木花道', '車谷空', 'アレンアイバーソン', '流川楓')
+	),
+	array(
+		'q' => '中学校の男子のバスケットボールは何号球？',
+		'a' => array('6', '4', '5', '7')
 	)
 );
 
